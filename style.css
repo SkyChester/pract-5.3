@@ -1,0 +1,108 @@
+html{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+*{
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.box_container{
+    padding: 5px;
+}
+.title_function{
+    border-radius: 15px;
+    text-align: center;
+    width: 720px;    
+    background-color: rgb(56, 53, 53);
+    color: white;
+}
+.list_box_function{
+    text-align: center;
+    list-style: none;
+    padding: 1% 0% 1% 0%;
+    max-width: 720px;
+    max-height: auto;
+    border-radius: 15px;
+    background-color: rgb(130, 123, 123);
+}
+.list_function{
+    width: 90%;
+    padding-left: 10px;
+    font-size: 22px;
+    background-color: white;
+    line-height: 38px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.list_function:hover{
+    background-color: rgb(86, 85, 85);
+    color: white;
+}
+
+.title_const{   
+    border-radius: 15px;
+    text-align: center;
+    width: 720px;
+    background-color: rgb(56, 53, 53); 
+    color: white;
+}
+.list_box_const{
+    text-align: center;
+    list-style: none;
+    padding: 1% 0% 1% 0%;
+    max-width: 720px;
+    max-height: auto;
+    background-color: rgb(130, 123, 123);
+    border-radius: 15px;
+}
+.list_const{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 22px;
+    background-color: white;
+    line-height: 35px;
+    cursor: pointer;
+}
+.list_const:hover{
+    background-color: rgb(86, 85, 85);
+    color: white;
+}
+.title_rand{
+    border-radius: 15px;
+    text-align: center;
+    width: 720px;    
+    background-color: rgb(56, 53, 53);
+    color: white;
+
+}
+.rand_box{
+    text-align: center;
+    list-style: none;
+    max-width: 720px;
+    max-height: auto;
+    background-color: rgb(130, 123, 123);    
+    border-radius:  15px;
+    padding: 1% 0% 1% 0%;
+}
+.rand_text{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-weight: bold ;
+    font-size: 18px;
+    background-color: white;
+    line-height: 35px;
+    cursor: pointer;
+}
+.rand_text:hover{
+    background-color: rgb(86, 85, 85);
+    color: white;
+}

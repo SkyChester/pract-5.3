@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Математика</title>
+</head>
+<body>
+        <div class="box_container">
+            <h1 class="title_const">Constants</h1>
+            <ul class="list_box_const">
+                <li class="list_const">Значення константи e = <br><span id="e_const"></span></li>
+                <li class="list_const">Значення константи π = <br><span id="pi_const"></span></li>
+                <li class="list_const">Десятковий логарифм постійної Ейлера (e) = <br><span id="log_e_dec"></span></li>
+                <li class="list_const">Двійковий логарифм постійної Ейлера (e) = <br><span id="log_e_bin"></span></li>
+                <li class="list_const">Натуральний логарифм числа 10 = <br><span id="log_10"></span></li>
+                <li class="list_const">Натуральний логарифм числа 2 = <br><span id="log_2"></span></li>
+                <li class="list_const">Корінь квадратний із двох = <br><span id="sqrt_2"></span></li>
+                <li class="list_const">Корінь квадратний з однієї другої = <br><span id="sqrt_half"></span></li>
+            </ul>
+            <h1 class="title_function">Functions</h1>
+            <ul class="list_box_function">
+                <li class="list_function">Результат округлення числа 1,44 за правилами арифметики:<br> y =<span id="round"></span></li>
+                <li class="list_function"> Результат округлення числа 1,54 за правилами арифметики:<br> y =<span id="round1"></span></li>
+                <li class="list_function">Вибір найбільшого із двох чисел 4 й 2:<br> y =<span id="max"></span></li>
+                <li class="list_function">Вибір найменшого із двох чисел 4 й 2:<br> y =<span id="min"></span></li>
+                <li class="list_function">Результат добування квадратного кореня з 4:<br> y =<span id="square"></span></li>
+            </ul>
+            <h1 class="title_rand">Random number generator</h1>
+            <div class="rand_box">
+                <p class="rand_text">Формування випадкових чисел в інтервалі [0;1]:<br> y = <span id="random_number"></span></p>
+            </div>
+            
+        </div>       
+
+    <script>
+        document.getElementById('round').textContent = Math.round(1.44);
+        document.getElementById('round1').textContent = Math.round(1.54);
+        document.getElementById('max').textContent = Math.max(4, 2);
+        document.getElementById('min').textContent = Math.min(4, 2);
+        document.getElementById('square').textContent = Math.sqrt(4);
+        
+        document.getElementById('e_const').textContent = Math.E;
+        document.getElementById('pi_const').textContent = Math.PI;
+        document.getElementById('log_e_dec').textContent = Math.log10(Math.E);
+        document.getElementById('log_e_bin').textContent = Math.log2(Math.E);
+        document.getElementById('log_10').textContent = Math.log10(10);
+        document.getElementById('log_2').textContent = Math.log2(2);
+        document.getElementById('sqrt_2').textContent = Math.sqrt(2);
+        document.getElementById('sqrt_half').textContent = Math.sqrt(0.5);
+
+        document.getElementById('random_number').textContent = Math.random();
+    </script>
+</body>
+</html>
